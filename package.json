@@ -1,0 +1,37 @@
+{
+  "type": "module",
+  "name": "element-size-observer",
+  "version": "1.0.0",
+  "description": "Minimalistic wrapper around ResizeObserver to watch element size",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@rollup/plugin-babel": "^6.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "mocha": "^10.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlegotin/element-size-observer.git"
+  },
+  "keywords": [
+    "size",
+    "resize",
+    "observe",
+    "observer",
+    "element"
+  ],
+  "author": "Artem Legotin <hello@artemlegotin.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arlegotin/element-size-observer/issues"
+  },
+  "homepage": "https://github.com/arlegotin/element-size-observer#readme"
+}
