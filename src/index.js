@@ -5,7 +5,7 @@ export default class ElementSizeObserver extends EventEmitter {
   /**
    * @typedef {String} SizeObserverEventName
    */
-  static EVENT_SIZE_CHANGED = 'size-changed'
+  static EVENT_SIZE_CHANGED = 'resize'
 
   /**
    * @param {Object} params

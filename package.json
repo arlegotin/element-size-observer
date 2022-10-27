@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "element-size-observer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimalistic wrapper around ResizeObserver to watch element size",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -26,7 +26,9 @@
     "resize",
     "observe",
     "observer",
-    "element"
+    "element",
+    "ResizeObserver",
+    "watch"
   ],
   "author": "Artem Legotin <hello@artemlegotin.com>",
   "license": "ISC",

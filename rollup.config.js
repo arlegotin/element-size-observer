@@ -11,6 +11,7 @@ export default [
       {
         file: pkg.main,
         format: 'cjs',
+        exports: 'default',
       },
       {
         file: pkg.module,
