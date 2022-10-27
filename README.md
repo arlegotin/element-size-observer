@@ -53,6 +53,6 @@ observer.destructor()
 
 Destructor will properly destroy underlying `ResizeObserver` and `EventEmitter`.
 
-### Contribution
+## Contribution
 
 Feel free to open [issues](https://github.com/arlegotin/element-size-observer/issues) and [pull-requests](https://github.com/arlegotin/element-size-observer/pulls).
