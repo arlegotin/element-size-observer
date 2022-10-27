@@ -21,7 +21,7 @@ import ElementSizeObserver from 'element-size-observer'
 
 const observer = new ElementSizeObserver({
   element: document.querySelector('#some'),
-  onResize: () => {
+  onResize: element => {
     console.log('Element resized')
   },
 })
@@ -34,11 +34,11 @@ const observer = new ElementSizeObserver({
   element: document.querySelector('#some'),
 })
 
-observer.on('resize', () => {
+observer.on('resize', element => {
   console.log('Handler #1')
 })
 
-observer.once('resize', () => {
+observer.once('resize', element => {
   console.log('Handler #2')
 })
 
